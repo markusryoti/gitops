@@ -9,7 +9,7 @@ spec:
   source:
     repoURL: https://github.com/markusryoti/gitops.git
     targetRevision: main
-    path: environments/charts/hello-world
+    path: charts/hello-world
 
   destination:
     server: https://kubernetes.default.svc
